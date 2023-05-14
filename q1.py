@@ -4,7 +4,15 @@ import math
 input_str = input()
 
 # Parse the input string
-m, op, n = input_str.split("#")
+sep = ['+', '-', '*', '/']
+op=''
+for ope in sep:
+    try:
+        m, n = input_str.split(ope)
+        op = ope
+        break
+    except:
+        pass
 m = int(m)
 n = int(n)
 

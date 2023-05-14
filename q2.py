@@ -14,4 +14,4 @@ def make_alternating(s):
     else:
         return -1
     
-    
+  
