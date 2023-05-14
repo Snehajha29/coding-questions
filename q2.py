@@ -14,4 +14,8 @@ def make_alternating(s):
     else:
         return -1
     
+s = "1010"
+result = make_alternating(s)
+print(result)    
+    
   
